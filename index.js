@@ -12,7 +12,7 @@ app.use('/api/auth', authRouter)
 app.use('/api/note', noteRouter)
 
 
-app.listen(5000, () => {
+app.listen(5001, () => {
     connectToMongoDB()
     console.log("server running")
 })
